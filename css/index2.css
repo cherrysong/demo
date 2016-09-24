@@ -1,0 +1,78 @@
+/* 书写评论框 */
+.talkTwo{
+	display:none;
+    height:565px;
+    width: 100%;
+ /* 缺图 */
+    background-color: #F7FAFA;
+    box-sizing: border-box;
+    font-size:12px;
+	color:#333;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 20;
+}
+.talkTwo .nav{
+height: 40px;
+width: 330px;
+/* 缺图 */
+background-color:#115DB1;
+}
+
+.talkTwo .nav  .close_one{
+	display: block;
+	height: 16px;
+	width: 16px;
+	position:absolute;
+	right:15px;
+	top:12px;
+	background-image: url('../images1/button_close_normal.png');
+}
+
+#txtarea{
+
+	height:365px;
+	width: 288px;
+	margin:20px 20px 20px 15px;
+	font-size: 12px;
+	color:#666;
+}
+/* 提教按钮 */
+.submit{
+	height: 38px;
+	width: 146px;
+	margin:0 auto;
+	border-radius: 14px;
+	margin-top:25px;
+	background-image: url('../images1/button_submit_normal.png');
+}
+.submit:hover{
+	background-image: url('../images1/button_submit_hover.png');
+}
+.submit:active{
+	background-image: url('../images1/button_submit_press.png');
+}
+/*返回头部*/
+#totop {
+	position: fixed;
+	right: 5%;
+	bottom:15%;
+	z-index: 9;
+	width: 40px;
+	height: 40px;
+	background:url('../images1/button_gobackToTop_normal.png');
+}
+
+
+#totop a {
+	width: 40px;
+	height: 40px;
+	/* z-index: 333; */
+}
+#totop a:hover{
+	background-image: url('../images1/button_gobackToTop_hover.png');
+}
+#totop a:active{
+	background-image: url('../images1/button_gobackToTop_press.png');
+}

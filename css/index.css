@@ -1,0 +1,239 @@
+
+
+/* 清除浮动 */
+.clearfixed:after{
+	content:'';
+	display: block;
+	height:0;
+	visibility: hidden;
+	clear: both;
+}
+.header{
+	width: 330px;
+	height: 565px;
+	position: relative;
+	background-color:#F7FaFa;
+}
+/* 所有、我的 */
+.header .tab{
+	width: 330px;
+
+}
+
+.menu{
+	height: 34px;
+	font-size: 13px;
+	color: #fff;
+	width: 330px;
+	background-color: red;
+	/* 缺图片 */
+}
+.header .tab .menu ul{
+height: 34px;
+width: 330px;
+
+
+}
+.header .tab .menu ul li {
+	display: block;
+	height: 34px;
+	width: 64px;
+	float:left;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 8px 8px 0 0;
+	font-size:13px;
+	cursor: pointer;
+	
+}
+
+/* 评论部分 */
+
+ .box{
+	height: 471px;
+	width: 100%;
+	background-color:#F7FaFa;
+	margin:0 auto;
+	overflow:hidden;
+	/* overflow-y: auto; */
+}
+.show{
+	height: 100%;
+	width: 100%;
+
+}
+.hide{
+	display:none;
+}
+.selected{
+	background-color: #fff;
+	color:#105eb4;
+	/* cursor: pointer; */
+}
+
+.list{
+	display: none;
+}
+.cur{
+	display: block;
+}
+
+/* 谈话内容 */
+ .box  .talk,.talk-two{
+ 	width: 315px;
+ 	margin-top: 19px;
+ 	margin-left: 15px;
+ 	overflow:hidden;
+ 	border-bottom:1px solid #E2E2E2;
+ 	box-sizing:border-box;
+ }
+ .talk{
+ 	height: 120px;
+ }
+ .talk-two{
+ 	height: 80px;
+ }
+ /* .talk-one{
+ 	height: 60px;
+ 	width: 330px;
+ 	padding-left: 15px;
+ 	margin-top: 19px;
+ 	background-color: #fff;
+
+ 	border-bottom:1px solid #E2E2E2;
+ }
+ */
+ .talk-1-two,.talk-2-two{
+height: 60px;
+width: 100%;
+ }
+ 
+ .talk-2-two{
+margin-top: 10px;
+ }
+  .talk-1-two ul,.talk-2-two ul{
+    	height: 30px;
+    	width: 100%;
+    }
+ .talk-1-two ul li,.talk-2-two ul li{
+    	display:block;
+    	height: 30px;
+    	width: 50px;
+    	/* line-height: 30px; */
+    	float:left;
+		
+    }
+    .lst1,.lst3{
+    	margin-left: 150px;
+    }
+    .lst2,.lst4{
+    	margin-right: 15px;
+    }
+   .lis1{
+   		display: block;
+   		height: 20px;
+    	width: 20px;
+    	margin-top: -3px;
+		background:url('../images1/ico_view.png');
+		background-repeat:no-repeat;
+		float: left;
+}
+   .lis2{
+   		display: block;
+   		height: 20px;
+    	width: 20px;
+    	/* margin-left: 15px; */
+    	background:url('../images1/ico_comment_normal.png');
+		background-repeat:no-repeat;
+		float:left;
+   } 
+   .lis2:hover{
+   	background-image: url('../images1/ico_comment_hover.png');
+   }
+   .lis2:active{
+	background-image: url('../images1/ico_comment_press.png');
+   }
+
+/* 底部 提议部分*/
+.footer,.footer-two{
+	height: 60px;
+	width: 330;
+	padding-left: 15px;
+	border-top: 1px solid #ccc;
+	
+}
+.footer{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+.footer .inp{
+	height:36px;
+	width: 226px;
+	font-size: 12px;
+	color:#999;
+	float:left;
+	/* margin-left: 15px; */
+	margin-top:10px;
+	border: 1px solid #ccc;
+}
+.footer .btn{
+	display: block;
+	height: 38px;
+	width: 66px;
+	
+	float:left;
+	/* box-sizing: border-box; */ */
+
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-left: 6px;
+	
+}
+.footer .btn{
+	background-image: url('../images1/button_propose_normal.png');
+}
+.footer .btn:hover{
+background-image: url('../images1/button_propose_hover.png');
+}
+.footer .btn:active{
+	background-image: url('../images1/button_propose_press.png');
+}
+
+
+
+/*创建帖子*/
+/*提交按钮*/
+/* .submit{
+	margin: 0 auto;
+    margin-top: 10%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #01B26A;
+    width: 146px;
+    height: 39px;
+    border-radius: 20px;
+    font-family: '微软雅黑';
+} */
+/* #sub{
+	background-color: red;
+} */
+/*点击加载*/
+.btn-more{
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+.tips {
+	width: 280px;
+	height: 40px;
+	margin: 30px auto 0;
+	background-size: cover;
+	
+}
+.loading {
+	background-color: transparent;
+}
+
+
